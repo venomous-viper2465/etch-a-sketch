@@ -1,0 +1,30 @@
+
+* {
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#parent{
+   display: flex;
+    height: 802px;
+    width: 802px;
+    flex: auto;
+    border-width: 1px;
+    border-color: black;
+    flex-wrap: wrap;
+    border-style: solid;
+    
+}
+
+.rectangle{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 50px;
+    height: 50px;
+}
